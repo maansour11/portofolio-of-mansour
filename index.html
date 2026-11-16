@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08111d" />
+    <meta name="description" content="Mansour Toure — développement logiciel, data et intelligence artificielle." />
+    <title>Mansour Toure — Développement logiciel & Data</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#accueil" aria-label="Accueil"><span class="brand-mark">MT</span><span>MANSOUR TOURE<span class="brand-dot">.</span></span></a>
+      <nav class="main-nav" aria-label="Navigation principale">
+        <a href="#projets">Projets</a><a href="#apropos">À propos</a><a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cta" href="#contact">Disponible pour un stage <span>↗</span></a>
+      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false"><span></span><span></span></button>
+    </header>
+
+    <main>
+      <section class="hero section-wrap" id="accueil">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> RECHERCHE DE STAGE · DATA & DÉVELOPPEMENT</p>
+          <h1>Je transforme<br />la donnée en <span class="accent-word">solutions</span><span class="period">.</span></h1>
+          <p class="hero-intro">Bonjour, moi c’est <strong>Mansour Toure</strong>, diplômé en génie logiciel et systèmes d’information. Je construis des applications et des outils data qui rendent les problèmes complexes plus simples à comprendre.</p>
+          <div class="hero-actions"><a class="button button-dark" href="#projets">Découvrir mes projets <span>↓</span></a><a class="text-link" href="#apropos">En savoir plus <span>↗</span></a></div>
+          <div class="hero-meta"><span>Monastir, Tunisie</span><span class="meta-divider"></span><span>Développement · Data · IA</span></div>
+        </div>
+        <div class="hero-art" aria-label="Illustration abstraite du portfolio">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-sun"></div><div class="art-card"><span class="art-card-label">MANSOUR.TOURE · PROFIL</span><strong>Code.<br />Data.<br /><em>Impact.</em></strong><span class="art-card-footer">PYTHON · SQL · AWS</span></div>
+          <div class="art-stamp">DATA<br /><b>×<br />CODE</b></div><span class="art-spark spark-one">✳</span><span class="art-spark spark-two">✳</span>
+        </div>
+        <div class="hero-bottom"><span>FAIRE DÉFILER</span><span class="scroll-line"></span><span>01 — 03</span></div>
+      </section>
+
+      <section class="projects-section section-wrap" id="projets">
+        <div class="section-heading"><div><p class="eyebrow">PROJETS & EXPÉRIENCES</p><h2>Du code utile.<br /><span class="serif-accent">Des données lisibles.</span></h2></div><p class="section-note">Projets en développement logiciel et data, avec une approche orientée utilisateur et résolution de problèmes.</p></div>
+        <div class="project-toolbar"><div class="filters" role="group" aria-label="Filtrer les projets"><button class="filter-chip active" data-filter="Tous">Tout <span id="all-count">00</span></button><button class="filter-chip" data-filter="Data & IA">Data & IA</button><button class="filter-chip" data-filter="Développement">Développement</button><button class="filter-chip" data-filter="Engagement">Engagement</button></div><button class="add-project" id="open-project-form"><span>＋</span> Ajouter un projet</button></div>
+        <div class="project-grid" id="project-grid"></div>
+        <div class="project-footnote"><span class="footnote-star">✳</span><span>Vous avez une idée en tête ?</span><a href="#contact">Parlons-en ensemble <span>↗</span></a></div>
+      </section>
+
+      <section class="about-section" id="apropos"><div class="about-inner section-wrap"><div class="about-label"><p class="eyebrow">À PROPOS</p><span class="about-number">02 / 03</span></div><div class="about-content"><h2>Logiciel, data<br />et <span class="serif-accent">curiosité.</span></h2><p>Diplômé en génie logiciel et systèmes d’information de la Faculté des Sciences de Monastir (2022–2026), je recherche un stage en développement logiciel ou en data. J’aime passer de la préparation des données à une application claire et utile.</p><p>Mon projet de fin d’études, Tafuta, combine collecte d’offres IT, NLP, tableaux de bord interactifs et chatbot pour analyser les tendances de l’emploi. J’ai également représenté la Tunisie lors de la simulation continentale COSAU 2026.</p><div class="skill-list"><span>Langages · Python, SQL, Java, JavaScript, C, C++, C#</span><span>Data & IA · Pandas, NumPy, Matplotlib, Plotly, NLP</span><span>Web · React, Node.js, Spring Boot, Streamlit, HTML, CSS</span><span>Bases · MySQL, PostgreSQL, MongoDB</span><span>Cloud & outils · AWS EC2/S3, Docker, Git/GitHub, Linux, Firebase, Postman</span></div><p class="certifications"><strong>Certifications</strong> AWS Academy Cloud Foundations & Cloud Architecting (2023–2024) · BUILD Entrepreneurial Leadership (2020–2021)</p><p class="language-note"><strong>Langues</strong> Français : très bien · Anglais : C1 à l’oral, B2 à l’écrit</p></div><div class="about-quote"><span>01—02</span><p>Construire, analyser, apprendre.</p><small>Génie logiciel · Faculté des Sciences de Monastir</small></div></div></section>
+
+      <section class="contact-section section-wrap" id="contact"><div class="contact-kicker"><span class="status-dot"></span> OUVERT AUX OPPORTUNITÉS DE STAGE</div><h2>Parlons de<br /><span class="serif-accent">vos projets</span><br />tech.</h2><a class="contact-email" href="mailto:touresie408@gmail.com">touresie408@gmail.com <span>↗</span></a><div class="contact-bottom"><span>Monastir, Tunisie</span><div class="social-links"><a href="https://github.com/maansour11" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div><span>03 — 03</span></div></section>
+    </main>
+    <footer class="site-footer"><a class="brand" href="#accueil"><span class="brand-mark">MT</span><span>MANSOUR TOURE<span class="brand-dot">.</span></span></a><span>© <span id="year"></span> Mansour Toure · Développement & Data</span><a href="#accueil">Retour en haut ↑</a></footer>
+
+    <dialog id="project-dialog" class="project-dialog"><form id="project-form"><div class="dialog-head"><div><p class="eyebrow">VOTRE TRAVAIL, MIS EN VALEUR</p><h2>Ajouter un projet</h2></div><button type="button" class="dialog-close" id="close-project-form" aria-label="Fermer">×</button></div><label>Titre du projet<input name="title" required maxlength="70" placeholder="Ex. Dashboard de suivi — Projet X" /></label><div class="form-row"><label>Catégorie<select name="category"><option>Data & IA</option><option>Développement</option><option>Engagement</option></select></label><label>Année<input name="year" inputmode="numeric" maxlength="4" placeholder="2026" /></label></div><label>Description<textarea name="description" rows="3" required maxlength="220" placeholder="Le défi, votre approche et le résultat…"></textarea></label><label>Lien du projet <span class="optional">(facultatif)</span><input name="link" type="url" placeholder="https://…" /></label><label>Image de couverture <span class="optional">(facultatif)</span><input name="image" type="url" placeholder="https://…" /></label><p class="form-hint">Les projets sont enregistrés dans ce navigateur. Ajoutez-les aussi au fichier app.js pour les publier et les garder sur tous vos appareils.</p><button class="button button-dark submit-project" type="submit">Enregistrer le projet <span>↗</span></button></form></dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
